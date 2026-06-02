@@ -1,0 +1,26 @@
+.is-invalid {
+  animation: invalid 2s ease;
+}
+@keyframes invalid {
+  0% {
+    border-color: white;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.invalid-feedback {
+  animation: 1s ease feedback;
+}
+@keyframes feedback {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.feedback-index {
+  background-image: url("/web/background/1653399147_24-celes-club-p-ofisnii-fon-dlya-prezentatsii-krasivie-24.jpg");
+}
